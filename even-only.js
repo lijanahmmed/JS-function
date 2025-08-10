@@ -15,8 +15,8 @@ function evenNumbersOnly(numbers) {
 }
 
 const numbers = [5, 8, 91, 24, 6];
-// const evens = evenNumbersOnly(numbers);
-// console.log('even numbers are', evens)
+const evens = evenNumbersOnly(numbers);
+console.log('even numbers are', evens)
 
 function sumOfEvenNumbers(numbers) {
     let sum = 0;

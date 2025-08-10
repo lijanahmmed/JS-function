@@ -5,7 +5,7 @@ function vaatKhao() {
     console.log('gopat gopat kore khao');
 }
 
-// vaatKhao();
+vaatKhao();
 
 
 // 3 --> 3*3 = 9

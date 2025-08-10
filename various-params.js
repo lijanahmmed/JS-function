@@ -16,8 +16,8 @@ function evenSizedString(str) {
     }
 }
 
-// evenSizedString('Dhaka');
-// evenSizedString('faka');
+evenSizedString('Dhaka');
+evenSizedString('faka');
 
 function doubleOrTriple(number, doDouble){
     if(doDouble === true){
@@ -30,8 +30,8 @@ function doubleOrTriple(number, doDouble){
     }
 }
 
-// console.log(doubleOrTriple(5, true));
-// console.log(doubleOrTriple(5, false));
+console.log(doubleOrTriple(5, true));
+console.log(doubleOrTriple(5, false));
 
 
 function numberOfElements(numbers){
@@ -39,7 +39,7 @@ function numberOfElements(numbers){
     return len;
 }
 
-// numberOfElements([12, 45, 78,45,121254,4,5])
+numberOfElements([12, 45, 78,45,121254,4,5])
 
 function getAge(person){
     const age = person.age;

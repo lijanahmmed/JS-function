@@ -7,8 +7,8 @@ function isEven(number) {
     }
 }
 
-// console.log(isEven(5));
-// console.log(isEven(110));
+console.log(isEven(5));
+console.log(isEven(110));
 
 function isOdd(number){
     if(number % 2 === 1){
